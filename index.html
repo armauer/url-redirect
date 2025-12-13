@@ -1,1 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Facilities Redirects</title>
+  <style>
+    body { 
+      font-family: Arial, sans-serif; 
+      margin: 0; 
+      background-color: #f0f0f0; /* light gray background */
+      display: flex; 
+      flex-direction: column; 
+      align-items: center;   /* center horizontally */
+      justify-content: center; /* center vertically */
+      height: 100vh; /* make body full screen height */
+    }
+    a.button {
+      display: flex;               
+      align-items: center;         
+      justify-content: center;     
+      font-size: 14px;             
+      font-weight: bold;
+      color: #fff; 
+      border-radius: 8px; 
+      text-decoration: none;
+      margin: 10px;  /* spacing between buttons */
+      box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+      width: 200px;  /* consistent width */
+      height: 40px;  /* consistent height */
+      text-align: center; 
+    }
+     /* planning Calendar style */
+    a.planning-calendar {
+      background-color: #006747; /* USF green */
+    }
+    a.planning-calendar:hover { background-color: #004d36; }
+    
+    /* Automated Logic style */
+    a.automated-logic {
+      background-color: #006747; /* USF green */
+    }
+    a.automated-logic:hover { background-color: #004d36; }
 
+    /* Niagara style */
+    a.niagara {
+      background-color: #006747; 
+    }
+    a.niagara:hover { background-color: #004d36; }
+
+    /* Ready style */
+    a.ready {
+      background-color: #006747; 
+    }
+    a.ready:hover { background-color: #004d36; }
+    
+    /* Ready style */
+    a.workDay {
+      background-color: #006747; 
+    }
+    a.workDay:hover { background-color: #004d36; } 
+  </style>
+</head> 
+<body>
+   <a class="button planning-calendar" href="https://sites.google.com/usfca.edu/usf-facilities-management/home" target="_blank" rel="noopener noreferrer">
+    Planning Calendar
+  </a>
+  
+  <a class="button automated-logic" href="http://vmi-facilities-01.ds.usfca.edu/" target="_blank" rel="noopener noreferrer">
+    Launch ALC
+  </a>
+
+  <a class="button niagara" href="https://10.202.9.32/login" target="_blank" rel="noopener noreferrer">
+    Launch Niagara
+  </a>
+
+   <a class="button ready" href="https://usfreadyprod.assetworks.cloud/ready/auth/accountLogin" target="_blank" rel="noopener noreferrer">
+    Launch Ready
+  </a>
+
+   <a class="button workDay" href="https://wd5.myworkday.com/usfca/d/home.htmld" target="_blank" rel="noopener noreferrer">
+    Launch Workday
+  </a>
+</body>
+</html>
